@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nafisa Hashmi | Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #f0f9ff, #fffbe7);
+      color: #333;
+    }
+
+    header {
+      background-color: #4a90e2;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    header img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid white;
+      margin-bottom: 15px;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+
+    h1 {
+      font-size: 2.7rem;
+    }
+
+    p.subtitle {
+      font-size: 1.2rem;
+      color: #e3f2fd;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    section {
+      background: white;
+      margin: 20px 0;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+    }
+
+    h2 {
+      color: #4a90e2;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-top: 10px;
+    }
+
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .skills-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .skill-item {
+      text-align: center;
+      width: 100px;
+    }
+
+    .skill-item img {
+      width: 50px;
+      height: 50px;
+    }
+
+    .languages {
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #e3f2fd;
+      padding: 20px;
+      font-size: 0.9rem;
+      margin-top: 40px;
+    }
+
+    @media screen and (max-width: 600px) {
+      header img {
+        width: 100px;
+        height: 100px;
+      }
+
+      .skills-grid {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- Feminine animated avatar -->
+    <img src="https://cdn-icons-png.flaticon.com/512/6997/6997662.png" alt="Nafisa Hashmi - Girl Avatar" />
+    <h1>Nafisa Hashmi</h1>
+    <p class="subtitle">2nd Year Diploma Student - Computer Science and Technology</p>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm Nafisa Hashmi, a 2nd-year diploma engineering student in Computer Science and Technology.
+        I'm passionate about coding, web development, machine learning, and artificial intelligence.
+        I'm always eager to learn new things and possess excellent communication skills.
+      </p>
+      <div class="languages">
+        <strong>Languages Spoken:</strong> Bengali, Hindi, English
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>2014:</strong> Dantan Rail Colony Primary School</li>
+        <li><strong>2021:</strong> Dantan Binapani Girl's High School (10th)</li>
+        <li><strong>2023:</strong> Dantan High School (12th)</li>
+        <li><strong>2026:</strong> APC Ray Polytechnic (Diploma - Ongoing)</li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
+          <div>HTML</div>
+        </div>
+        <div class="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
+          <div>CSS</div>
+        </div>
+        <div class="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+          <div>JavaScript</div>
+        </div>
+        <div class="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+          <div>Python</div>
+        </div>
+        <div class="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" />
+          <div>C</div>
+        </div>
+        <div class="skill-item">
+          <img src="https://img.icons8.com/color/48/artificial-intelligence.png" alt="AI/ML" />
+          <div>AI/ML</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul>
+        <li>Web Development Project</li>
+        <li>Game Development Project</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p><strong>Phone:</strong> 9733699936</p>
+      <p><strong>Email:</strong> <a href="mailto:nafisahaashmi@gmail.com">nafisahaashmi@gmail.com</a></p>
+      <ul>
+        <li><a href="https://instagram.com/nafisahashmi_" target="_blank">Instagram: @nafisahashmi_</a></li>
+        <li><a href="https://facebook.com" target="_blank">Facebook: Nafisa Hashmi</a></li>
+        <li><a href="https://linkedin.com" target="_blank">LinkedIn: Nafisa Hashmi</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Nafisa Hashmi. Designed with ❤️ using HTML, CSS & JavaScript.</p>
+  </footer>
+
+  <script>
+    console.log("Welcome to Nafisa Hashmi's Portfolio!");
+  </script>
+</body>
+</html>
